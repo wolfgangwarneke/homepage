@@ -32,11 +32,12 @@ export default {
   }
   .orb-sub-hero .container {
     width: 80vw;
-    max-width: 1000px;
+    max-width: 900px;
+    margin: 3rem auto;
   }
   .orb-sub-hero h1 {
     font-size: 3.2rem;
-    margin: 4rem auto 0;
+    margin-bottom: 0;
   }
   .orb-image {
     width: 40vh;
