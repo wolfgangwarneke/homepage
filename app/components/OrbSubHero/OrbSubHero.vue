@@ -5,7 +5,7 @@
     div.container
       h1 {{ message }}
       div.orb-image-container
-        img.orb-image(src="~/images/orb.jpg")
+        img.orb-image(src="./orb.jpg")
 </template>
 
 <script>
@@ -36,7 +36,7 @@ export default {
   }
   .orb-sub-hero h1 {
     font-size: 3.2rem;
-    margin-bottom: 0;
+    margin: 4rem auto 0;
   }
   .orb-image {
     width: 40vh;

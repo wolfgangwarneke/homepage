@@ -2,12 +2,12 @@
 
 <template lang="pug">
   .homepage
-    div
-      h1 {{ message }}
+    ConversionHero
     OrbSubHero.cool
 </template>
 
 <script>
+import ConversionHero from 'comp/ConversionHero/ConversionHero.vue';
 import OrbSubHero from 'comp/OrbSubHero/OrbSubHero.vue';
 
 export default {
@@ -18,6 +18,7 @@ export default {
     };
   },
   components: {
+    ConversionHero,
     OrbSubHero
   }
 };
