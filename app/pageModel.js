@@ -12,11 +12,11 @@ const pageModel = {
     leftHeadline: 'What I do:',
     leftContent: 'Day to day I develop front end A/B tests.  I create tools for my team and continuously improve processes.  Occasionally I pitch in on strategy, test design, data analysis, and microcopy especially.',
     rightHeadline: 'Who I am:',
-    rightContent: 'From when I taught myself HTML as a child to when I attended a code bootcamp for C#, my mind was consumed by many other interests: foreign languages, art… but mostly music.  Organizing symbols into meaning has always come naturally to me—it’s who I am.  I love to learn, teach, and always improve.'
+    rightContent: 'From when I taught myself HTML as a child to when I attended a code bootcamp for C#, my mind was consumed by many other interests: foreign languages, art… but primarily music.  Organizing symbols into meaning has always come naturally to me—it’s who I am.  I love to learn, teach, and always improve.'
 
   },
   skills: {
-
+    title: 'Web Development Skills'
   }
 };
 

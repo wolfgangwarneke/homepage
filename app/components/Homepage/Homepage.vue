@@ -5,12 +5,14 @@
     ConversionHero
     OrbSubHero.cool
     About
+    Skills
 </template>
 
 <script>
 import ConversionHero from 'comp/ConversionHero/ConversionHero.vue';
 import OrbSubHero from 'comp/OrbSubHero/OrbSubHero.vue';
 import About from 'comp/About/About.vue';
+import Skills from 'comp/Skills/Skills.vue';
 
 export default {
   name: 'Homepage',
@@ -22,7 +24,8 @@ export default {
   components: {
     ConversionHero,
     OrbSubHero,
-    About
+    About,
+    Skills
   }
 };
 </script>

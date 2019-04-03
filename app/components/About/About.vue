@@ -1,4 +1,4 @@
-// Primary 'hero' section
+// 'About me' section
 <template lang="pug">
   .about
     .image-grid
@@ -42,6 +42,7 @@ export default {
   .about {
     background: white;
     color: black;
+    padding-bottom: 1rem;
   }
   .about .image-grid {
     display: flex;
