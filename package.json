@@ -5,14 +5,25 @@
   "main": "index.html",
   "scripts": {
     "start": "parcel index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "parcel-version": "parcel -V"
   },
   "author": "Wolfgang Warneke",
   "license": "ISC",
   "dependencies": {
-    "vue": "^2.6.10"
+    "app": "^0.1.0",
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
   },
   "devDependencies": {
-    "parcel-bundler": "^1.12.3"
+    "@vue/component-compiler-utils": "^2.6.0",
+    "parcel-bundler": "^1.12.3",
+    "pug": "^2.0.3",
+    "vue-template-compiler": "^2.6.10"
+  },
+  "alias": {
+    "comp": "~/app/components/",
+    "app": "~/app/",
+    "img": "~/images/"
   }
 }
