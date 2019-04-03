@@ -12,7 +12,7 @@
         h4.headline {{ rightHeadline }}
         .content {{ rightContent }}
     blockquote
-      h2 {{ callout }}
+      h2.callout {{ callout }}
 </template>
 
 <script>
@@ -62,6 +62,9 @@ export default {
     width: 50%;
     padding: 0 1rem;
   }
+  .about .info .headline {
+    font-size: 1.75rem;
+  }
   .about .left .headline::after {
     content: '';
     border: 1px solid grey;
@@ -70,5 +73,8 @@ export default {
     position: relative;
     display: inline-block;
     z-index: 100;
+  }
+  .about .callout {
+    font-size: 1.75rem;
   }
 </style>
