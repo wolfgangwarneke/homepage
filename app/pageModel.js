@@ -10,7 +10,7 @@ const pageModel = {
   about: {
     callout: '"I have developed more than 250 A/B tests for dozens of ecommerce websites."',
     leftHeadline: 'What I do:',
-    leftContent: 'Day to day I develop front end A/B tests.  I create tools for my team and continuously improve processes.  Occasionally I pitch in on strategy, test design, data analysis, and microcopy especially.',
+    leftContent: 'Day to day I develop front end A/B tests.  I create tools for my team and continuously improve our internal processes.  Occasionally I pitch in on strategy, test design, data analysis, and microcopy especially.',
     rightHeadline: 'Who I am:',
     rightContent: 'From when I taught myself HTML as a child to when I attended a code bootcamp for C#, my mind was consumed by many other interests: foreign languages, art… but primarily music.  Organizing symbols into meaning has always come naturally to me—it’s who I am.  I love to learn, teach, and always improve.'
 
@@ -76,8 +76,7 @@ const pageModel = {
         'Drawing Hobbyist (charcoal, and ink)',
         'Photography & Digital Photo Editing',
         'Unity 3d/VR Development',
-        'Blender 3d modelling',
-        'Music performance (multiple instruments)',
+        'Music Performance (multi-instrumentalist)',
         'Music Production & Sound Design'
       ]
     }

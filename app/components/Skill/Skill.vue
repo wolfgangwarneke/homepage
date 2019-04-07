@@ -16,6 +16,16 @@ export default {
 </script>
 
 <style>
+  .skill ul {
+    margin: .75rem 0;
+  }
+  .skill li {
+    margin-bottom: .5rem;
+    opacity: .9;
+  }
+  .skill li:last-of-type {
+    margin-bottom: 0;
+  }
   .skill {
     width: 30%;
     color: white;
@@ -32,5 +42,6 @@ export default {
     padding: 1rem;
     list-style: none;
     border: 1px solid #ffffff57;
+    overflow-y: scroll;
   }
 </style>

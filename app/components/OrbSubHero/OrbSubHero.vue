@@ -3,7 +3,7 @@
 <template lang="pug">
   section.orb-sub-hero
     div.container
-      h1 {{ message }}
+      h1.statement {{ message }}
       div.orb-image-container
         img.orb-image(src="./orb.jpg")
 </template>
@@ -35,7 +35,7 @@ export default {
     max-width: 900px;
     margin: 3rem auto;
   }
-  .orb-sub-hero h1 {
+  .orb-sub-hero .statement {
     font-size: 3.2rem;
     margin-bottom: 0;
   }
@@ -44,5 +44,18 @@ export default {
     max-width: 40vh;
     height: 40vh;
     max-height: 40vh;
+  }
+  @media only screen and (max-width: 900px) {}
+  @media only screen and (max-width: 600px) {
+    .orb-sub-hero .statement {
+      font-size: 2rem;
+      margin-top: 1rem;
+    }
+    .orb-image {
+      width: 30vh;
+      max-width: 30vh;
+      height: 30vh;
+      max-height: 30vh;
+    }
   }
 </style>

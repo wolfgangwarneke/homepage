@@ -56,5 +56,38 @@ export default {
   .conversion-hero .subheadline {
     font-size: 2rem;
     margin: 2rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  }
+  @media only screen and (max-width: 900px) {
+    .conversion-hero .headline {
+      font-size: 4rem;
+    }
+    .conversion-hero .subheadline {
+      margin-top: 1rem;
+      /* text-shadow: 0 0 10px rgba(0, 0, 0, 0.75); */
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .conversion-hero {
+      flex-direction: column;
+      height: 75vh;
+    }
+    .conversion-hero .left {
+      margin: 0 auto;
+      width: unset;
+    }
+    .conversion-hero .name {
+      margin: 0;
+    }
+    .conversion-hero .right {
+      width: 100%;
+      padding: 0;
+    }
+    .conversion-hero .headline {
+      font-size: 3.25rem;
+    }
+    .conversion-hero .subheadline {
+      font-size: 1.25rem;
+    }
   }
 </style>
