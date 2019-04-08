@@ -67,7 +67,8 @@ export default {
     text-decoration: none;
     border: 1px solid transparent;
     border-radius: 2px;
-    background-color: #af3832;
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+    background-color: rgba(175, 56, 50, 0.875);
     transition: background-color .1s, border-color .1s;
   }
   .conversion-hero .cta:hover {

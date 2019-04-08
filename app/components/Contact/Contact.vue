@@ -38,6 +38,9 @@ export default {
   .contact a {
     color: #151515;
   }
+  .contact a:hover {
+    color: #fe7e6e;
+  }
   .contact .heading {
     font-size: 3rem;
     padding: 2.5rem 0 .5rem;

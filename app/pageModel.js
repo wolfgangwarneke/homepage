@@ -41,7 +41,8 @@ const pageModel = {
         'Goal setup/debugging',
         'Google Tag Manager (configuration, triggers, tags)',
         'Detect/diagnose client bugs (technical and visual)',
-        'Communicate technical issues to UX team and clients'
+        'Communicate technical issues to UX team and clients',
+        'Write documentation'
         ]
       },
       'JavaScript': {
