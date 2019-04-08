@@ -1,12 +1,14 @@
 // 'Contact' section
 <template lang="pug">
   header.header
-    h1.logo(v-scroll-to="'.conversion-hero'") WW
+    h1.logo(v-scroll-to="'.conversion-hero'") {{ initials }}
     ul.icons
       li.icon
-        i.fab.fa-linkedin
+        a(:href="links.linkedIn.href")
+          i(:class="links.linkedIn.iconClass")
       li.icon
-        i.fab.fa-github
+        a(:href="links.gitHub.href")
+          i(:class="links.gitHub.iconClass")
 
 </template>
 
@@ -17,7 +19,7 @@ export default {
   name: 'Header',
   data() {
     return {
-      ...pageModel.header,
+      ...pageModel.global,
     };
   }
 };
@@ -32,6 +34,9 @@ export default {
     text-align: center;
     padding-top: .5rem;
     text-shadow: 0 0 3px rgba(0, 0, 0, .1);
+  }
+  .header a {
+    color: #fff;
   }
   .header .logo {
     display: inline-block;

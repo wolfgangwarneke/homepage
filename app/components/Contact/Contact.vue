@@ -4,9 +4,11 @@
     h3.heading Want to get in contact or find out more?
     ul.icons
       li.icon
-        i.fab.fa-linkedin
+        a(:href="links.linkedIn.href")
+          i(:class="links.linkedIn.iconClass")
       li.icon
-        i.fab.fa-github
+        a(:href="links.gitHub.href")
+          i(:class="links.gitHub.iconClass")
     div.copyright
       span &copy; Wolfgang Warneke 2019
     div.back-to-top
@@ -21,7 +23,7 @@ export default {
   name: 'Contact',
   data() {
     return {
-      ...pageModel.contact,
+      ...pageModel.global,
     };
   }
 };
@@ -29,9 +31,12 @@ export default {
 
 <style>
   .contact {
-    background-color: white;
-    color: black;
+    background-color: #fff;
     min-height: 300px;
+  }
+  .contact,
+  .contact a {
+    color: #151515;
   }
   .contact .heading {
     font-size: 3rem;

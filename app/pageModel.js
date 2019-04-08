@@ -1,4 +1,18 @@
 const pageModel = {
+  global: {
+    initials: 'WW',
+    links: {
+      linkedIn: {
+        iconClass: 'fab fa-linkedin',
+        href: 'https://www.linkedin.com/in/wolfgangwebdev/'
+      },
+      gitHub: {
+        iconClass: 'fab fa-github',
+        href: 'https://github.com/wolfgangwarneke'
+      }
+    },
+    copyright: '&copy; Wolfgang Warneke 2019'
+  },
   conversionHero: {
     name: 'Wolfgang <br>Warneke',
     headline: 'Conversion Rate Optimization Developer.',
@@ -100,9 +114,6 @@ const pageModel = {
         ]
       }
     }
-  },
-  contact: {
-
   }
 };
 
