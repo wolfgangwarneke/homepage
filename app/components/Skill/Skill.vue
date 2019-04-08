@@ -24,6 +24,8 @@ export default {
   .skill li {
     margin-bottom: .5rem;
     opacity: .9;
+    line-height: 1.25rem;
+    margin-bottom: .25rem;
   }
   .skill li:last-of-type {
     margin-bottom: 0;
@@ -39,10 +41,10 @@ export default {
   .skill .name i {
     font-size: 1.6rem;
     margin-right: .5rem;
-    opacity: .9;
+    opacity: .925;
   }
   .skill .list-box {
-    text-shadow: 1px 1px #00000024;
+    text-shadow: 1px 1px rgba(0, 0, 0, .08);
     font-family: Poppins;
     height: 300px;
     background: transparent;

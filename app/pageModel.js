@@ -22,11 +22,12 @@ const pageModel = {
       'Conversion': {
         iconClass: 'fas fa-funnel-dollar',
         items: [
-        'A/B frameworks (VWO, Google Optimize, etc.)',
-        'Test Development and QA',
-        'Goal Setup/Debugging',
-        'Detect client bugs (technical and visual)',
+        'A/B testing frameworks (VWO, Google Optimize, etc.)',
+        'Test development and QA',
+        'Goal setup/debugging',
         'Google Tag Manager (configuration, triggers, tags)',
+        'Detect/diagnose client bugs (technical and visual)',
+        'Communicate technical issues to UX team and clients'
         ]
       },
       'JavaScript': {
@@ -50,13 +51,11 @@ const pageModel = {
           'Google Analytics',
           'Google Analytics Certified',
           'Udacity Nanodegree (in progress)',
-          'strategy/product insights',
-          'technical insights',
+          'Strategy brand/product insights',
+          'Technical insights',
           'SQL (MySQL, MSSQL)',
-          'Production',
-          'Lean/Kaizen approach to tooling/production',
-          'Cost-benefit analysis for util requirements',
-          'Research technology and tooling'
+          'Lean/Kaizen approach to code tooling and production',
+          'Cost-benefit analysis for util requirements'
         ]
       },
       'Front End': {
@@ -92,13 +91,18 @@ const pageModel = {
         iconClass: 'fas fa-paint-brush',
         items: [
           'Drawing Hobbyist (charcoal, and ink)',
-          'Photography & Digital Photo Editing',
+          'Digital Photography',
+          'Digital Photo Editing',
           'Unity 3d/VR Development',
           'Music Performance (multi-instrumentalist)',
-          'Music Production & Sound Design'
+          'Music Production',
+          'Synthesis and Sound Design'
         ]
       }
     }
+  },
+  contact: {
+
   }
 };
 

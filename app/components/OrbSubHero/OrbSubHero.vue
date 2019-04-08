@@ -22,7 +22,7 @@ export default {
 };
 </script>
 
-<style scoped>
+<style>
   .orb-sub-hero {
     text-align: center;
     color: white;
@@ -44,6 +44,11 @@ export default {
     max-width: 40vh;
     height: 40vh;
     max-height: 40vh;
+  }
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
+    .orb-sub-hero .statement {
+      font-size: 2.25rem;
+    }
   }
   @media only screen and (max-width: 900px) {}
   @media only screen and (max-width: 600px) {

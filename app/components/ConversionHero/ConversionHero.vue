@@ -15,7 +15,7 @@
 import pageModel from 'app/pageModel';
 
 export default {
-  name: 'Homepage',
+  name: 'ConversionHero',
   data() {
     return pageModel.conversionHero;
   }
@@ -66,11 +66,12 @@ export default {
     color: white;
     text-decoration: none;
     border: 1px solid transparent;
+    border-radius: 2px;
     background-color: #af3832;
     transition: background-color .1s, border-color .1s;
   }
   .conversion-hero .cta:hover {
-    border: 1px solid #ff0000;
+    border: 1px solid #fa2d50;
     background-color: rgba(79, 0, 82, 0.2);
     cursor: pointer;
     transition: background-color .4s, border-color .4s;
@@ -86,7 +87,7 @@ export default {
     transition: color .2s;
   }
   .conversion-hero i.fa-chevron-down:hover {
-    color: #FA2D50;
+    color: #fa2d50;
     transition: color .4s;
   }
   @media only screen and (max-width: 900px) {
@@ -122,6 +123,30 @@ export default {
     }
     .conversion-hero i.fa-chevron-down {
       bottom: 10px;
+    }
+  }
+  @media only screen and (max-width: 900px) and (orientation: landscape) {
+    .conversion-hero .left {
+      width: 20%;
+    }
+    .conversion-hero .right {
+      padding-left: 0;
+      width: 80%;
+    }
+    .conversion-hero {
+      min-height: 450px;
+    }
+    .conversion-hero .name {
+      font-size: 2rem;
+      position: relative;
+      left: 1rem;
+    }
+    .conversion-hero .headline {
+      font-size: 3rem;
+    }
+    .conversion-hero .subheadline {
+      font-size: 1.5rem;
+      margin-bottom: 1.5rem;
     }
   }
   @media only screen and (min-width: 1800px) {
