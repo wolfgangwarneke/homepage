@@ -140,6 +140,12 @@ export default {
     .about .callout {
       font-size: 2rem;
       margin: 1.5rem 20vw .5rem;
+      padding: 1rem 0;
+    }
+  }
+  @media only screen and (min-width: 1800px) {
+    .about .info .content {
+      max-width: 600px;
     }
   }
 </style>

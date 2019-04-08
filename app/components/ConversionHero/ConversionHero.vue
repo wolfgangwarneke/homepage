@@ -7,6 +7,8 @@
     .right
       h2.headline {{ headline }}
       h3.subheadline {{ subheadline }}
+      a.cta(href="#", v-scroll-to="'.about'") {{ cta }}
+    i.fa.fa-chevron-down(v-scroll-to="'.orb-sub-hero'")
 </template>
 
 <script>
@@ -29,6 +31,7 @@ export default {
     text-align: center;
     padding-top: 12vh;
     margin-top: 0;
+    position: relative;
   }
   .conversion-hero .left {
     width: 30%;
@@ -57,6 +60,34 @@ export default {
     font-size: 2rem;
     margin: 2rem;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.75);
+  }
+  .conversion-hero .cta {
+    padding: .35rem 1.25rem;
+    color: white;
+    text-decoration: none;
+    border: 1px solid transparent;
+    background-color: #af3832;
+    transition: background-color .1s, border-color .1s;
+  }
+  .conversion-hero .cta:hover {
+    border: 1px solid #ff0000;
+    background-color: rgba(79, 0, 82, 0.2);
+    cursor: pointer;
+    transition: background-color .4s, border-color .4s;
+  }
+  .conversion-hero i.fa-chevron-down {
+    position: absolute;
+    bottom: 100px;
+    left: 50%;
+    transform: translateX(-25%);
+    opacity: .8;
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: color .2s;
+  }
+  .conversion-hero i.fa-chevron-down:hover {
+    color: #FA2D50;
+    transition: color .4s;
   }
   @media only screen and (max-width: 900px) {
     .conversion-hero .headline {
@@ -88,6 +119,24 @@ export default {
     }
     .conversion-hero .subheadline {
       font-size: 1.25rem;
+    }
+    .conversion-hero i.fa-chevron-down {
+      bottom: 10px;
+    }
+  }
+  @media only screen and (min-width: 1800px) {
+    .conversion-hero .name,
+    .conversion-hero .subheadline {
+      font-size: 4rem;
+    }
+    .conversion-hero .headline {
+      font-size: 10rem;
+    }
+    .conversion-hero .subheadline {
+      margin-bottom: 2.25rem;
+    }
+    .conversion-hero .cta {
+      font-size: 2.25rem;
     }
   }
 </style>

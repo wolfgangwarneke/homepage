@@ -58,4 +58,9 @@ export default {
       max-height: 30vh;
     }
   }
+  @media only screen and (min-width: 900px) {
+    .orb-sub-hero {
+      padding-top: 6rem;
+    }
+  }
 </style>

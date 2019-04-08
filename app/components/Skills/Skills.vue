@@ -16,7 +16,7 @@ export default {
   data() {
     return {
       ...pageModel.skills,
-      skills: Object.entries(pageModel.skills.skillMap).map(entry => ({ name: entry[0], list: entry[1] }))
+      skills: Object.entries(pageModel.skills.skillMap).map(entry => ({ name: entry[0], list: entry[1].items, iconClass: entry[1].iconClass }))
     }
   },
   components: {
@@ -76,13 +76,19 @@ export default {
       border: 1px solid rgba(255, 255, 255, 0.25);
       border-top-color: rgba(255, 255, 255, 0.15);
     }
-    @media only screen and (min-width: 900px) {
+  }
+  @media only screen and (min-width: 900px) {
       .title {
         margin-bottom: 2rem;
       }
       .skill {
         margin-top: 1rem;
       }
+  }
+  @media only screen and (min-width: 1800px) {
+    .skills .title {
+      font-size: 5rem;
+      margin-bottom: 4rem;
     }
   }
 </style>

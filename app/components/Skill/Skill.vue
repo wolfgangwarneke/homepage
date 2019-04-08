@@ -1,7 +1,9 @@
 // 'Skill' cards for 'Skills' section
 <template lang="pug">
   .skill
-    h2.name {{ skill.name }}
+    h2.name
+      i(v-bind:class="skill.iconClass")
+      span {{ skill.name }}
     ul.list-box
       li.list-skills(v-for="skill in skill.list") {{ skill }}
 </template>
@@ -32,7 +34,12 @@ export default {
   }
   .skill .name {
     font-family: Poppins;
-    font-size: 2rem;
+    font-size: 1.75rem;
+  }
+  .skill .name i {
+    font-size: 1.6rem;
+    margin-right: .5rem;
+    opacity: .9;
   }
   .skill .list-box {
     text-shadow: 1px 1px #00000024;
@@ -43,5 +50,10 @@ export default {
     list-style: none;
     border: 1px solid #ffffff57;
     overflow-y: scroll;
+  }
+  @media only screen and (max-width: 600px) {
+    .skills .name i {
+      float: right;
+    }
   }
 </style>
