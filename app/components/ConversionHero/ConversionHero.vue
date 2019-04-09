@@ -69,13 +69,13 @@ export default {
     border-radius: 2px;
     box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
     background-color: rgba(175, 56, 50, 0.875);
-    transition: background-color .1s, border-color .1s;
+    /* transition: background-color .1s, border-color .1s; */
   }
   .conversion-hero .cta:hover {
     border: 1px solid #fa2d50;
     background-color: rgba(79, 0, 82, 0.2);
     cursor: pointer;
-    transition: background-color .4s, border-color .4s;
+    /* transition: background-color .4s, border-color .4s; */
   }
   .conversion-hero i.fa-chevron-down {
     position: absolute;
