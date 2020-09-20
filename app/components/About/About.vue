@@ -65,6 +65,7 @@ export default {
   }
   .about .info .headline {
     font-size: 1.75rem;
+    font-weight: bold;
     margin: .75rem 0;
   }
   .about .info .content {
@@ -83,6 +84,7 @@ export default {
     font-size: 1.75rem;
     text-align: center;
     margin: 1.5rem calc(100vw - 900px) .5rem;
+    position: relative;
   }
   @media only screen and (max-width: 900px) {
     .about .callout {
@@ -135,12 +137,41 @@ export default {
   @media only screen and (min-width: 900px) {
     .about .info .content {
       font-size: 1.15rem;
-      line-height: 1.375rem;
+      line-height: 1.6rem;
     }
     .about .callout {
       font-size: 2rem;
       margin: 1.5rem 20vw .5rem;
-      padding: 1rem 0;
+      padding: 4rem 0;
+      position: relative;
+    }
+    .about .callout::before,
+  .about .callout::after {
+    content: '"';
+    font-size: 20rem;
+    text-shadow: 2px 2px 2px black;
+    position: absolute;
+    opacity: 0.115;
+  }
+  .about .callout::before {
+    color: #e19e7e;
+    color: #dbd0a9;
+    left: 0%;
+    transform: rotate(5deg);
+    top: -1.2rem;
+  }
+  .about .callout::after {
+    color: #dbd0a9;
+    color: #e19e7e;
+    right: 10%;
+    transform: rotate(-15deg);
+    top: 0.5rem;
+  }
+  }
+  @media only screen and (min-width: 1200px) {
+    .about .info > div {
+      width: calc(50% - 4rem);
+      padding: 0 2rem;
     }
   }
   @media only screen and (min-width: 1800px) {

@@ -51,7 +51,7 @@ export default {
     padding: 1rem;
     list-style: none;
     border: 1px solid #ffffff57;
-    overflow-y: scroll;
+    /* overflow-y: scroll; */
   }
   @media only screen and (max-width: 600px) {
     .skills .name i {

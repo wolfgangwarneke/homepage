@@ -67,7 +67,7 @@ export default {
     text-decoration: none;
     border: 1px solid transparent;
     border-radius: 2px;
-    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15);
+    box-shadow: 0 0 20px rgba(255, 255, 255, 0.15), 0 0 10px black;
     background-color: rgba(175, 56, 50, 0.875);
     /* transition: background-color .1s, border-color .1s; */
   }
@@ -148,6 +148,11 @@ export default {
     .conversion-hero .subheadline {
       font-size: 1.5rem;
       margin-bottom: 1.5rem;
+    }
+  }
+  @media only screen and (min-width: 1350px) {
+    .conversion-hero {
+      text-shadow: 40px 40px 4px rgba(255, 255, 255, 0.35);
     }
   }
   @media only screen and (min-width: 1800px) {

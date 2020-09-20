@@ -11,24 +11,45 @@ const pageModel = {
         href: 'https://github.com/wolfgangwarneke'
       }
     },
-    copyright: '&copy; Wolfgang Warneke 2019'
+    copyright: 'code, content, and photos &copy; Wolfgang Warneke 2020'
   },
   conversionHero: {
     name: 'Wolfgang <br>Warneke',
-    headline: 'Conversion Rate Optimization Developer.',
-    subheadline: 'Using modern front end technologies to improve user experiences.',
+    headline: 'Web Developer and Musician.',
+    subheadline: 'Solving problems through coding and creation.',
     cta: 'Learn more'
   },
   orb: {
     message: 'I am creative as well as analytical and I am always in pursuit of continuous improvement.'
   },
   about: {
-    callout: '"I have developed more than 250 A/B tests for dozens of ecommerce websites."',
-    leftHeadline: 'What I do:',
-    leftContent: 'Day to day I develop front end A/B tests.  I create tools for my team and continuously improve our internal processes.  I also pitch in on strategy, test design, data analysis, and microcopy especially.',
-    rightHeadline: 'Who I am:',
-    rightContent: 'From when I taught myself HTML as a child to when I attended a code bootcamp for C#, my mind was consumed by many other interests: foreign languages, art… but primarily music.  Organizing symbols into meaning has always come naturally to me—it’s who I am.  I love to learn, teach, and always improve.'
-
+    callout: 'I have developed more than 250 A/B tests for dozens of ecommerce websites.',
+    leftHeadline_OLD: 'What I do:',
+    leftHeadline: 'As a coder:',
+    leftContent_OLD: 'Day to day I develop front end A/B tests.  I create tools for my team and continuously improve our internal processes.  I also pitch in on strategy, test design, data analysis, and microcopy especially.',
+    leftContent: `
+      I am currently doing coursework pursuing a computer science degree, with admittedly unknown aspirations. 
+      In the long term, I am interested in artificial intelligence, fin-tech, videogame development, music applications, and more... 
+      but my background and present skill set is as a web-developer. In 2016, I attended the coding bootcamp at Epicodus for ASP.Net. Afterwards I interned
+      at an immersive arts/media group call Portland Immersive Media Group where I started to learn VR development in Unity with C#.
+      Next, I assisted at LaunchCode, a community-focused code school, teaching web technologies with computer science fundamentals.
+      More recently, I was a "CRO Developer" with The Good, building out A/B tests for ecommerce sites. Client-side testing presents,
+      many challenges, but was great fun for building solutions. As such, I consider JavaScript my primary language, but lately spend
+      my time in school learning C++. Web development has been a part of my life off and on since the sixth grade, when saw an enticing
+      magazine at the grocery store claiming to teach you how to build webpages. Several terrible Angelfire and Geocities sites later,
+      a seed was planted. So in retrospect, it turns out that on a random day one print magazine and a maple bar had significantly impacted my life.`,
+    rightHeadline_OLD: 'Who I am:',
+    rightHeadline: 'As a musician:',
+    rightContent_OLD: 'From when I taught myself HTML as a child to when I attended a code bootcamp for C#, my mind was consumed by many other interests: foreign languages, art… but primarily music.  Organizing symbols into meaning has always come naturally to me—it’s who I am.  I love to learn, teach, and always improve.',
+    rightContent: `
+      From when I taught myself HTML as a child to when I attended a code bootcamp for C#, my mind was consumed by many other interests: 
+      foreign languages, art… but primarily music.  Organizing symbols into meaning has always come naturally to me—it’s who I am.
+      I developed an initial interest in music and coding at a similar time, but both were soon derailed by my adolescent passion: skateboarding.
+      Eventually, I would start playing bass which quickly became as all-consuming as skateboarding had been. My musical exploration continued
+      to branch outwards into a multitude of instruments, genres, and approaches, from the studious and analytical, to the fun and improvisation,
+      to the purely energetic. In 2015, I toured the country twice; once with my band Coma Serfs (on electric bass) and once as a supporting member with my friend
+      Jackson Boone's band (on keyboards and synthesizer). Lately, I focus on music production, composition with synthesizers, and practicing random
+      instruments for fun. I will be releasing an album of synthesizer music in 2021.`
   },
   skills: {
     title: 'Web Development Skills',

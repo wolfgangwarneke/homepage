@@ -10,7 +10,7 @@
         a(:href="links.gitHub.href")
           i(:class="links.gitHub.iconClass")
     div.copyright
-      span &copy; Wolfgang Warneke 2019
+      span code, photos, and content &copy; Wolfgang Warneke 2019-2020
     div.back-to-top
       span(v-scroll-to="'.conversion-hero'") back to the top
 
